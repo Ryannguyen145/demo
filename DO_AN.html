@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Title Page</title>
+
+	<!-- Liên kết css của bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Css của mình -->
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<section id="menu-bar">
+		<nav class="navbar navbar-fixed-top navbar-default opaque-navbar" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="DO_AN.html"><img src="img/logo1.png" class="img-responsive" alt=""></a>
+				</div>
+
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Trang chủ</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Giới thiệu<span class="caret"></span></a>
+							<ul class="dropdown-menu" style="margin-right: -102px; width: 214px;">
+								<li><a href="gioithieunghe.html" style="margin-top: 5px;">Giới thiệu về linh vật Nghê</a></li>
+								<li><a href="tranhauyenthe.html">Họa sĩ Trần Hậu Yên Thế</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="" class="dropdown-toggle" data-toggle="dropdown">Phân loại<span class="caret"></span></a>
+							<ul class="dropdown-menu" style="margin-right: -87px; width: 200px;">
+								<li><a href="phanloai.html" style="margin-top: 5px;">Phân loại linh vật Nghê</a></li>
+								<li><a href="linhvatnghe.html">Linh vật Nghê VR3D</a></li>
+							</ul>
+						</li>
+						
+						<li><a href="hinhthai.html">Hình thái</a></li>
+						<li><a href="sanpham.html">Sản phẩm ứng dụng</a></li>
+						<li><a href="tintuc.html">Tin tức</a></li>
+						<li><a href="lienhe.html">Liên hệ</a></li>
+						<li class="dropdown search">
+							<a href="" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+							<ul class="dropdown-menu">
+								<form class="navbar-form navbar-left" action="/action_page.php">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="">
+								</div>
+							    </form>
+							</ul>
+						</li>
+						<li>
+							<ul class="social">
+								<li class="fb"><img src="img/fbw.png" alt="" class="img-responsive">
+									<div class="overlay">
+										<a href="" title=""><img src="img/facebook.png" class="img-responsive" alt="Image"></a>
+									</div></li>
+								<li class="fb"><img src="img/youtube.png" alt="" class="img-responsive">
+								<div class="overlay">
+										<a href="" title=""><img src="img/youtuye.png" class="img-responsive" alt="Image"></a>
+									</div></li>
+								<li class="fb"><img src="img/pinterest.png" alt="" class="img-responsive">
+								<div class="overlay">
+										<a href="" title=""><img src="img/pinye.png" class="img-responsive" alt="Image"></a>
+									</div></li>
+								<li class="fb"><img src="img/instagram.png" alt="" class="img-responsive">
+								<div class="overlay">
+										<a href="" title=""><img src="img/instaye.png" class="img-responsive" alt="Image"></a>
+									</div></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</section>
+
+	<section id="slider">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Số lượng slide -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+
+				<!-- Nội dung slide -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="img/slide.jpg" alt="Chania">
+						<div class="carousel-caption" style="width: 1200px; margin: auto; display: block;">
+							<div class="row">
+								<div class="col-md-4 text">
+									<h1>Nghê Việt Nam</h1>
+									<p>Nghê là con vật mang tính hư cấu và chính sự hư cấu này tạo nên bản sắc Việt cho nghê. Nó thể hiện sự sáng tạo của những người nghệ nhân Việt.
+										<br><br>
+										Trong tâm thức của người Việt, con nghê có hình dạng cơ bản là con chó. Hay nói khác đi, con nghê chính là con chó biến điệu ra.
+									</p>
+								</div>
+								<div class="col-md-8 img">
+									<img src="img/ngheslide.png" class="img-responsive" alt="Image">
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/slide.jpg" alt="Chania">
+						<div class="carousel-caption" style="width: 1200px; margin: auto; display: block;">
+							<div class="row">
+								<div class="col-md-4 text">
+									<h1>Nghê Việt Nam</h1>
+									<p>Nghê là con vật mang tính hư cấu và chính sự hư cấu này tạo nên bản sắc Việt cho nghê. Nó thể hiện sự sáng tạo của những người nghệ nhân Việt.
+										<br><br>
+										Trong tâm thức của người Việt, con nghê có hình dạng cơ bản là con chó. Hay nói khác đi, con nghê chính là con chó biến điệu ra.
+									</p>
+								</div>
+								<div class="col-md-8 img">
+									<img src="img/ngheslide.png" class="img-responsive" alt="Image">
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/slide.jpg" alt="Chania">
+						<div class="carousel-caption" style="width: 1200px; margin: auto; display: block;">
+							<div class="row">
+								<div class="col-md-4 text">
+									<h1>Nghê Việt Nam</h1>
+									<p>Nghê là con vật mang tính hư cấu và chính sự hư cấu này tạo nên bản sắc Việt cho nghê. Nó thể hiện sự sáng tạo của những người nghệ nhân Việt.
+										<br><br>
+										Trong tâm thức của người Việt, con nghê có hình dạng cơ bản là con chó. Hay nói khác đi, con nghê chính là con chó biến điệu ra.
+									</p>
+								</div>
+								<div class="col-md-8 img">
+									<img src="img/ngheslide.png" class="img-responsive" alt="Image">
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+
+				<!-- Điều khiển trái phải -->
+			</div>
+	</section>
+		
+	<section id="tranhauyenthe">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 text">
+					<h1>Trần Hậu Yên Thế</h1>
+					<h2>Dành trọn tình yêu tha thiết với linh vật Nghê Việt Nam</h2>
+					<p>Giảng viên, họa sĩ, tiến sĩ Trần Hậu Yên Thế công tác tại Trường Đại học Mỹ thuật Việt Nam. Ông là tác giả của những cuốn sách nghiên cứu mỹ thuật, di sản văn hóa, như: "Dịch đồ-cách tiếp cận từ thị giác", "Đồ án trang trí mỹ thuật ở đền Vua Đinh-Lê", "Song xưa phố cũ"... Ông được giải thưởng Bùi Xuân Phái-Vì tình yêu Hà Nội năm 2014 cho cuốn "Song xưa phố cũ". Xem cuốn sách này, người ta phần nào hiểu được tính cách ông, cái tính cách có “cái tôi” hơi nhiều.<br>
+					Ông như người chịu ơn đất này. Anh trả cái ơn đó bằng một tình yêu tha thiết. Và ông không thể chịu nổi, không thể chấp nhận bất cứ thứ gì làm xấu đi thành phố ông yêu quý. Ông rong ruổi khắp các con phố, ngõ nhỏ của Hà Nội để chụp ảnh, ghi chép, phác họa hình ảnh Hà Nội. </p>
+					<a href="tranhauyenthe.html" title=""><button type="button" class="btn btn-default">Xem thêm</button></a>
+				</div>
+
+				<div class="col-md-6">
+					<img src="img/yenthe.png" class="img-responsive" alt="Image">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="phanloai">
+		<div class="container">
+			<h1 class="text-center">Phân Loại</h1>
+			<p class="text-center">Dù nghê có muôn hình vạn trạng và sự định danh chỉ mang tính tương đối,<br>dưới đây là một số dạng nghê chính</p>
+			<img src="img/hoatiet.png" alt="">
+			<div class="row">
+				<div class="col-md-3 col-sm-6 nghe">
+					<img src="img/sutunghe.png" class="img-responsive" alt="Image">
+					<h2 class="text-center">Sư Tử Nghê</h2>
+					<div class="overlay">
+						<a href="" title=""><img src="img/sutungheye.png" class="img-responsive" alt="Image"></a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nghe">
+					<img src="img/longnghe.png" class="img-responsive" alt="Image">
+					<h2 class="text-center">Long Nghê</h2>
+					<div class="overlay">
+						<a href="" title=""><img src="img/longngheye.png" class="img-responsive" alt="Image"></a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nghe">
+					<img src="img/kylannghe.png" class="img-responsive" alt="Image">
+					<h2 class="text-center">Kỳ Lân Nghê</h2>
+					<div class="overlay">
+						<a href="" title=""><img src="img/kylanngheye.png" class="img-responsive" alt="Image"></a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 nghe">
+					<img src="img/khuyennghe.png" class="img-responsive" alt="Image">
+					<h2 class="text-center">Khuyển Nghê</h2>
+					<div class="overlay">
+						<a href="" title=""><img src="img/khuyenngheye.png" class="img-responsive" alt="Image"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="hinhthai">
+		<div class="container">
+			<h1 class="text-center title">Hình Thái Nghê</h1>
+			<p class="text-center para">Nghê là linh vật hư cấu lại được sáng tạo qua bàn tay và sự sáng tạo của các nghệ sĩ dân gian<br>nên nghê vô cùng phong phú và đa dạng</p>
+			<img src="img/hoatiet.png" style="margin: auto;" class="img-responsive" alt="Image">
+			<div class="row" style="margin-top: 30px;">
+				<div class="col-md-2">
+					<div class="row">
+						<div class="col-md-12" >
+							<img src="img/daunghe.png" class="img-responsive" alt="Image">
+							<div class="overlay">
+								<a href="hinhthai.html" title=""><img src="img/daungheye.png" class="img-responsive" alt="Image"></a>
+							</div>
+							<h4>Đầu nghê</h4>
+						</div>
+						<div class="col-md-12" style="margin-top: 30px;">
+							<img src="img/rangnghe.png" class="img-responsive" alt="Image">
+							<div class="overlay">
+								<a href="hinhthai.html" title=""><img src="img/rangngheye.png" class="img-responsive" alt="Image"></a>
+							</div>
+							<h4>Răng nghê</h4>
+						</div>
+						<div class="col-md-12" style="margin-top: 30px;">
+							<img src="img/tainghe.png" class="img-responsive" alt="Image">
+							<div class="overlay">
+								<a href="hinhthai.html" title=""><img src="img/taingheye.png" class="img-responsive" alt="Image"></a>
+							</div>
+							<h4>Tai nghê</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8" style="margin-top: 50px;">
+					<a href="hinhthai.html" title=""><img src="img/nghe.png" class="img-responsive" alt="Image"></a>
+				</div>
+				<div class="col-md-2">
+					<div class="row">
+						<div class="col-md-12" >
+							<img src="img/raunghe.png" class="img-responsive pic1" alt="Image">
+							<div class="overlay">
+								<a href="hinhthai.html" title=""><img src="img/raungheye.png" class="img-responsive" alt="Image"></a>
+							</div>
+							<h4>Râu nghê</h4>
+						</div>
+						<div class="col-md-12" style="margin-top: 30px;">
+							<img src="img/lungnghe.png" class="img-responsive" alt="Image">
+							<div class="overlay">
+								<a href="hinhthai.html" title=""><img src="img/lungngheye.png" class="img-responsive" alt="Image"></a>
+							</div>
+							<h4>Lưng nghê</h4>
+						</div>
+						<div class="col-md-12" style="margin-top: 30px;">
+							<img src="img/duoinghe.png" class="img-responsive" alt="Image">
+							<div class="overlay">
+								<a href="hinhthai.html" title=""><img src="img/duoingheye.png" class="img-responsive" alt="Image"></a>
+							</div>
+							<h4>Đuôi nghê</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="hinhthai.html" title=""><button type="button" class="btn btn-default">Xem thêm</button></a>
+		</div>
+	</section>
+	<section id="sanpham">
+		<div class="container">
+			<h1 class="text-center title" style="color: #e8c152;">Sản phẩm ứng dụng</h1>
+			<p class="text-center para" style="color: white;">Linh vật Nghê được nghiên cứu và sáng tạo các sản phẩm truyền thống.
+				<br>Đây là các sản phẩm thủ công mỹ nghệ rất độc đáo, đòi hỏi kỹ nghệ cao.
+			</p>
+			<img src="img/hoatiet2.png" style="margin: auto;" class="img-responsive" alt="Image">
+			<div id="carousel-id" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner" style="margin-top: 60px; margin-bottom: 40px;">	
+				<div class="item active">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="product">
+								<div class="product-image">
+									<a href="" title="">
+										<img src="img/sp1.png" class="img-responsive" alt="Image">
+									</a>
+									<ul class="rating">
+										<li class="fa fa-star"></li>
+										<li class="fa fa-star"></li>
+										<li class="fa fa-star"></li>
+										<li class="far fa-star disable"></li>
+										<li class="far fa-star disable"></li>
+									</ul>
+									<ul class="social">
+										<li class="mua">
+											<img src="img/searchsp.png" class="img-responsive mo" alt="Image">
+											<div class="overlay">
+												<a href="giohang.html" title=""><img src="img/searchspye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+										<li class="mua">
+											<img src="img/cart.png" class="img-responsive" alt="Image">
+											<div class="overlay">
+												<a href="" title=""><img src="img/cartye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+										<li class="mua">
+											<img src="img/tim.png" class="img-responsive" alt="Image">
+											<div class="overlay">
+												<a href="" title=""><img src="img/timye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="product-content">
+									<h5>Khuyển nghê</h5>
+									<p>Iphone XS Max</p>
+									<h4>1.860.000đ</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="product">
+								<div class="product-image">
+									<a href="" title="">
+										<img src="img/sp1.png" class="img-responsive" alt="Image">
+									</a>
+									<ul class="rating">
+										<li class="fa fa-star"></li>
+										<li class="fa fa-star"></li>
+										<li class="fa fa-star"></li>
+										<li class="far fa-star disable"></li>
+										<li class="far fa-star disable"></li>
+									</ul>
+									<ul class="social">
+										<li class="mua">
+											<img src="img/searchsp.png" class="img-responsive mo" alt="Image">
+											<div class="overlay">
+												<a href="giohang.html" title=""><img src="img/searchspye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+										<li class="mua">
+											<img src="img/cart.png" class="img-responsive" alt="Image">
+											<div class="overlay">
+												<a href="" title=""><img src="img/cartye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+										<li class="mua">
+											<img src="img/tim.png" class="img-responsive" alt="Image">
+											<div class="overlay">
+												<a href="" title=""><img src="img/timye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="product-content">
+									<h5>Khuyển nghê</h5>
+									<p>Iphone XS Max</p>
+									<h4>1.860.000đ</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="product">
+								<div class="product-image">
+									<a href="" title="">
+										<img src="img/sp1.png" class="img-responsive" alt="Image">
+									</a>
+									<ul class="rating">
+										<li class="fa fa-star"></li>
+										<li class="fa fa-star"></li>
+										<li class="fa fa-star"></li>
+										<li class="far fa-star disable"></li>
+										<li class="far fa-star disable"></li>
+									</ul>
+									<ul class="social">
+										<li class="mua">
+											<img src="img/searchsp.png" class="img-responsive mo" alt="Image">
+											<div class="overlay">
+												<a href="giohang.html" title=""><img src="img/searchspye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+										<li class="mua">
+											<img src="img/cart.png" class="img-responsive" alt="Image">
+											<div class="overlay">
+												<a href="" title=""><img src="img/cartye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+										<li class="mua">
+											<img src="img/tim.png" class="img-responsive" alt="Image">
+											<div class="overlay">
+												<a href="" title=""><img src="img/timye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="product-content">
+									<h5>Khuyển nghê</h5>
+									<p>Iphone XS Max</p>
+									<h4>1.860.000đ</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="product">
+								<div class="product-image">
+									<a href="" title="">
+										<img src="img/sp1.png" class="img-responsive" alt="Image">
+									</a>
+									<ul class="rating">
+										<li class="fa fa-star"></li>
+										<li class="fa fa-star"></li>
+										<li class="fa fa-star"></li>
+										<li class="far fa-star disable"></li>
+										<li class="far fa-star disable"></li>
+									</ul>
+									<ul class="social">
+										<li class="mua">
+											<img src="img/searchsp.png" class="img-responsive mo" alt="Image">
+											<div class="overlay">
+												<a href="giohang.html" title=""><img src="img/searchspye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+										<li class="mua">
+											<img src="img/cart.png" class="img-responsive" alt="Image">
+											<div class="overlay">
+												<a href="" title=""><img src="img/cartye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+										<li class="mua">
+											<img src="img/tim.png" class="img-responsive" alt="Image">
+											<div class="overlay">
+												<a href="" title=""><img src="img/timye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="product-content">
+									<h5>Khuyển nghê</h5>
+									<p>Iphone XS Max</p>
+									<h4>1.860.000đ</h4>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="item">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="product">
+								<div class="product-image">
+									<a href="" title="">
+										<img src="img/sp1.png" class="img-responsive" alt="Image">
+									</a>
+									<ul class="rating">
+										<li class="fa fa-star"></li>
+										<li class="fa fa-star"></li>
+										<li class="fa fa-star"></li>
+										<li class="far fa-star disable"></li>
+										<li class="far fa-star disable"></li>
+									</ul>
+									<ul class="social">
+										<li class="mua">
+											<img src="img/searchsp.png" class="img-responsive mo" alt="Image">
+											<div class="overlay">
+												<a href="giohang.html" title=""><img src="img/searchspye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+										<li class="mua">
+											<img src="img/cart.png" class="img-responsive" alt="Image">
+											<div class="overlay">
+												<a href="" title=""><img src="img/cartye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+										<li class="mua">
+											<img src="img/tim.png" class="img-responsive" alt="Image">
+											<div class="overlay">
+												<a href="" title=""><img src="img/timye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="product-content">
+									<h5>Khuyển nghê</h5>
+									<p>Iphone XS Max</p>
+									<h4>1.860.000đ</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="product">
+								<div class="product-image">
+									<a href="" title="">
+										<img src="img/sp1.png" class="img-responsive" alt="Image">
+									</a>
+									<ul class="rating">
+										<li class="fa fa-star"></li>
+										<li class="fa fa-star"></li>
+										<li class="fa fa-star"></li>
+										<li class="far fa-star disable"></li>
+										<li class="far fa-star disable"></li>
+									</ul>
+									<ul class="social">
+										<li class="mua">
+											<img src="img/searchsp.png" class="img-responsive mo" alt="Image">
+											<div class="overlay">
+												<a href="giohang.html" title=""><img src="img/searchspye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+										<li class="mua">
+											<img src="img/cart.png" class="img-responsive" alt="Image">
+											<div class="overlay">
+												<a href="" title=""><img src="img/cartye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+										<li class="mua">
+											<img src="img/tim.png" class="img-responsive" alt="Image">
+											<div class="overlay">
+												<a href="" title=""><img src="img/timye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="product-content">
+									<h5>Khuyển nghê</h5>
+									<p>Iphone XS Max</p>
+									<h4>1.860.000đ</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="product">
+								<div class="product-image">
+									<a href="" title="">
+										<img src="img/sp1.png" class="img-responsive" alt="Image">
+									</a>
+									<ul class="rating">
+										<li class="fa fa-star"></li>
+										<li class="fa fa-star"></li>
+										<li class="fa fa-star"></li>
+										<li class="far fa-star disable"></li>
+										<li class="far fa-star disable"></li>
+									</ul>
+									<ul class="social">
+										<li class="mua">
+											<img src="img/searchsp.png" class="img-responsive mo" alt="Image">
+											<div class="overlay">
+												<a href="giohang.html" title=""><img src="img/searchspye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+										<li class="mua">
+											<img src="img/cart.png" class="img-responsive" alt="Image">
+											<div class="overlay">
+												<a href="" title=""><img src="img/cartye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+										<li class="mua">
+											<img src="img/tim.png" class="img-responsive" alt="Image">
+											<div class="overlay">
+												<a href="" title=""><img src="img/timye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="product-content">
+									<h5>Khuyển nghê</h5>
+									<p>Iphone XS Max</p>
+									<h4>1.860.000đ</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="product">
+								<div class="product-image">
+									<a href="" title="">
+										<img src="img/sp1.png" class="img-responsive" alt="Image">
+									</a>
+									<ul class="rating">
+										<li class="fa fa-star"></li>
+										<li class="fa fa-star"></li>
+										<li class="fa fa-star"></li>
+										<li class="far fa-star disable"></li>
+										<li class="far fa-star disable"></li>
+									</ul>
+									<ul class="social">
+										<li class="mua">
+											<img src="img/searchsp.png" class="img-responsive mo" alt="Image">
+											<div class="overlay">
+												<a href="giohang.html" title=""><img src="img/searchspye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+										<li class="mua">
+											<img src="img/cart.png" class="img-responsive" alt="Image">
+											<div class="overlay">
+												<a href="" title=""><img src="img/cartye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+										<li class="mua">
+											<img src="img/tim.png" class="img-responsive" alt="Image">
+											<div class="overlay">
+												<a href="" title=""><img src="img/timye.png" class="img-responsive" alt="Image"></a>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="product-content">
+									<h5>Khuyển nghê</h5>
+									<p>Iphone XS Max</p>
+									<h4>1.860.000đ</h4>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>	
+				<a class="left carousel-control" href="#carousel-id" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+				<a class="right carousel-control" href="#carousel-id" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+			</div>
+
+			<a href="sanpham.html" title=""><button>Xem thêm</button></a>
+		</div>
+	</section>
+	<section id="tintuc">
+	     <div class="container">
+	     	<h1 class="text-center title">Tin tức</h1>
+			    <img src="img/hoatiet.png" style="margin: auto;" class="img-responsive" alt="Image">
+	     	<div class="row">
+	     		
+	     		<div class="col-md-8" >
+	     			<iframe width="750" style="border-radius: 20px;" height="505" src="https://www.youtube.com/embed/fc9tNzWCnHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	     		</div>
+	     		<div class="col-md-2">
+	     			<div class="tren">
+	     				<div class="box-item">
+	     					<div class="box-post">
+	     						<h1 class="post-title">
+	     							<a href="chitiettintuc.html">
+	     								Phân loại biểu tượng “Con Nghê” trong 
+                                        văn hóa Việt
+	     							</a>
+	     						</h1>
+	     					</div>
+	     					<a href="chitiettintuc.html" title=""><img src="img/new1.png" class="img-responsive" alt="Image"></a>       
+	     				</div>
+	     			</div>
+	     			<div class="duoi">
+                         <div class="box-item">
+	     					<div class="box-post">
+	     						<h1 class="post-title">
+	     							<a href="chitiettintuc.html">
+	     								Phân loại biểu tượng “Con Nghê” trong 
+                                        văn hóa Việt
+	     							</a>
+	     						</h1>
+	     					</div>
+	     					<a href="chitiettintuc.html" title=""><img src="img/new1.png" class="img-responsive" alt="Image"></a>       
+	     				</div>
+	     			</div>
+	     		</div>
+	     		<div class="col-md-2">
+	     			<div class="tren">
+	     				<div class="box-item">
+	     					<div class="box-post">
+	     						<h1 class="post-title">
+	     							<a href="chitiettintuc.html">
+	     								Phân loại biểu tượng “Con Nghê” trong 
+                                        văn hóa Việt
+	     							</a>
+	     						</h1>
+	     					</div>
+	     					<div class="anh">
+	     						<a href="chitiettintuc.html" title=""><img src="img/new1.png" class="img-responsive" alt="Image"></a>       
+	     					</div>
+	     				</div>
+	     			</div>
+	     			<div class="duoi">
+                         <div class="box-item">
+	     					<div class="box-post">
+	     						<h1 class="post-title">
+	     							<a href="chitiettintuc.html">
+	     								Phân loại biểu tượng “Con Nghê” trong 
+                                        văn hóa Việt
+	     							</a>
+	     						</h1>
+	     					</div>
+	     					<a href="chitiettintuc.html" title=""><img src="img/new1.png" class="img-responsive" alt="Image"></a>       
+	     				</div>
+	     			</div>
+	     		</div>
+	     	</div>
+	     	<a href="tintuc.html" title=""><button>Xem thêm</button></a>
+	    </div>
+	</section>
+
+	<section id="footer">
+		<div class="container" style="width: 55%;">
+			<div class="noidung">
+				<img src="img/logo2.png" class="img-responsive" alt="Image">
+			<p style="margin-top: 15px;">Nghê đích thực là gã linh vật chầu rìa độc đáo nhất trong nghệ thuật cổ truyền của người Việt.
+			<br>	Gã linh vật bên lề - nghê đã góp phần làm nên một diện mạo tinh thần sống động, lạc quan, bình dân <br> và thân thuộc cho nghệ thuật người Việt thời Trung đại. Nghê đã gắn bó ân tình với người Việt
+			<br>hàng nghìn năm nay. Nhỏ nhắn và khiêm nhường, chất phác và thuần hậu.</p>
+			<img src="img/hoatiet2.png" style="width: 10%; margin-top: 0;" class="img-responsive" alt="Image">
+			</div>
+			
+			<div class="row" style="margin-top: 30px; margin-bottom: 20px;">
+				<div class="col-md-4">
+					<h5>Hợp tác và liên kết:</h5>
+					<p>La Sonmai <br>Bảo tàng Mỹ thuật Việt Nam <br>Bảo tàng tỉnh Nam Định</p>
+				</div>
+				<div class="col-md-4">
+					<h5>Liên hệ:</h5>
+					<p>Điện thoại: (+84) 388 517 838<br>Email: nghevietnam@contact.com<br>Địa chỉ: 264 Cầu Giấy, Hà Nội </p>
+				</div>
+				<div class="col-md-4">
+					<h5>Liên hệ với chúng tôi:</h5>
+						<ul class="nav navbar-nav social">
+							<li class="fb"><img src="img/fbw.png" alt="" class="img-responsive">
+								<div class="overlay">
+									<a href="" title=""><img src="img/facebook.png" class="img-responsive" alt="Image"></a>
+								</div></li>
+							<li class="fb"><img src="img/youtube.png" alt="" class="img-responsive">
+							<div class="overlay">
+									<a href="" title=""><img src="img/youtuye.png" class="img-responsive" alt="Image"></a>
+								</div></li>
+							<li class="fb"><img src="img/pinterest.png" alt="" class="img-responsive">
+							<div class="overlay">
+									<a href="" title=""><img src="img/pinye.png" class="img-responsive" alt="Image"></a>
+								</div></li>
+							<li class="fb"><img src="img/instagram.png" alt="" class="img-responsive">
+							<div class="overlay">
+									<a href="" title=""><img src="img/instaye.png" class="img-responsive" alt="Image"></a>
+								</div></li>
+						</ul>
+				</div>
+			</div>
+		</div>
+		<div class="copy" style="background-color: #4f0c08">
+			<p>&copy;Copyright 2006 - 2019  All Rights Reserved. Nghe Viet Nam<p>
+		</div>
+	</section>
+
+
+
+		<!-- Liên kết js tổng -->
+		<script src="js/jquery.min.js"></script>
+		<!-- Liên kết js của bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+		<script>  $(window).scroll(function() {
+    if($(this).scrollTop() > 50)  /*height in pixels when the navbar becomes non opaque*/ 
+    {
+        $('.opaque-navbar').addClass('opaque');
+    } else {
+        $('.opaque-navbar').removeClass('opaque');
+    }
+});</script>
+</body>
+</html>

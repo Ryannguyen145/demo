@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Title Page</title>
+
+	<!-- Liên kết css của bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Css của mình -->
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<section id="menucon">
+		<nav class="navbar navbar-fixed-top navbar-default" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="DO_AN.html"><img src="img/logo1.png" class="img-responsive" alt=""></a>
+				</div>
+
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="DO_AN.html">Trang chủ</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Giới thiệu<span class="caret"></span></a>
+							<ul class="dropdown-menu" style="margin-right: -102px; width: 214px;">
+								<li><a href="gioithieunghe.html" style="margin-top: 5px;">Giới thiệu về linh vật Nghê</a></li>
+								<li><a href="tranhauyenthe.html">Họa sĩ Trần Hậu Yên Thế</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="" class="dropdown-toggle" data-toggle="dropdown">Phân loại<span class="caret"></span></a>
+							<ul class="dropdown-menu" style="margin-right: -87px; width: 200px;">
+								<li><a href="phanloai.html" style="margin-top: 5px;">Phân loại linh vật Nghê</a></li>
+								<li><a href="linhvatnghe.html">Linh vật Nghê VR3D</a></li>
+							</ul>
+						</li>
+						
+						<li><a href="hinhthai.html">Hình thái</a></li>
+						<li><a href="sanpham.html">Sản phẩm ứng dụng</a></li>
+						<li><a href="tintuc.html">Tin tức</a></li>
+						<li><a href="lienhe.html">Liên hệ</a></li>
+						<li class="dropdown search">
+							<a href="" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+							<ul class="dropdown-menu">
+								<form class="navbar-form navbar-left" action="/action_page.php">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="">
+								</div>
+							    </form>
+							</ul>
+						</li>
+						<li>
+							<ul class="social">
+								<li class="fb"><img src="img/fbw.png" alt="" class="img-responsive">
+									<div class="overlay">
+										<a href="" title=""><img src="img/facebook.png" class="img-responsive" alt="Image"></a>
+									</div></li>
+								<li class="fb"><img src="img/youtube.png" alt="" class="img-responsive">
+								<div class="overlay">
+										<a href="" title=""><img src="img/youtuye.png" class="img-responsive" alt="Image"></a>
+									</div></li>
+								<li class="fb"><img src="img/pinterest.png" alt="" class="img-responsive">
+								<div class="overlay">
+										<a href="" title=""><img src="img/pinye.png" class="img-responsive" alt="Image"></a>
+									</div></li>
+								<li class="fb"><img src="img/instagram.png" alt="" class="img-responsive">
+								<div class="overlay">
+										<a href="" title=""><img src="img/instaye.png" class="img-responsive" alt="Image"></a>
+									</div></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</section>
+
+    <section id="giohang">
+        <div class="container">
+            <h1 class="title text-center" style="margin-top: 120px; font-size: 36px;">Giỏ hàng của bạn</h1>
+            <img style="margin: auto" src="img/hoatiet.png" class="img-responsive" alt="Image">
+            <div class="row" style=" margin-top: 50px;margin-bottom: 80px;">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-5" style="width: 35%">
+                            <img src="img/giohang1.png" class="img-responsive" alt="Image">
+                        </div>
+                        <div class="col-md-7" style="width: 65%">
+                            <div class="basket-product">
+                                <div class="one">
+                                    <h3>Nghê Việt Nam</h3>
+                                    <p class="gia">1.460.000đ</p>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div>
+                                    <p class="text" style=" margin-top: 5px">Ốp điện thoại Iphone 11 Pro (Golden Edition) </p>
+                                </div>
+                                <div class="two" style="margin-top: 20px;">
+                                    <p class="text" style="float:left; margin-bottom: 0; margin-top: 2px;">Số lượng:</p>
+                                    <input type="number" value="4" min="1" class="quantity-field form-control" style="float:left;">
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="three" style="margin-top: 10px;">
+                                   <p class="text" style="float:left; margin-bottom: 0px; margin-top: 1px;">Phương thức vận chuyển:</p>
+                                    <select class="form-control" style="float:left">
+                                        <option>Giao Hàng Nhanh: 25.000đ</option>
+                                        <option>Giao Hàng Tiết Kiệm: 20.000đ</option>
+                                        <option>Grab Express: 25.000đ</option>
+                                        <option>Standard Express: 30.000đ</option>
+                                    </select> 
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="remove" style="margin-top: 60px;">    
+                                <a href="" title=""><img src="img/timgiohang.png" style="float: left; margin-top: 3px;" class="img-responsive" alt="Image"></a>             
+                                <a href="" title="" style="float: left; margin-left: 10px;"><p>Yêu thích</p></a>
+                                <a href="" title="" style="float: left; margin-left: 30px;"><p>Xóa</p></a>
+                            </div>
+                        </div>  
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-5" style="width: 35%">
+                            <img src="img/giohang1.png" class="img-responsive" alt="Image">
+                        </div>
+                        <div class="col-md-7" style="width: 65%">
+                            <div class="basket-product">
+                                <div class="one">
+                                    <h3>Áo dài Nghê Việt Nam</h3>
+                                    <p class="gia">1.460.000đ</p>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div>
+                                    <p class="text" style=" margin-top: 5px">Áo dài nam </p>
+                                </div>
+                                <div class="two" style="margin-top: 10px;">
+                                    <div class="soluong">
+                                        <p class="text" style="float:left; margin-bottom: 0; margin-top: 2px;">Số lượng:</p>
+                                        <input type="number" value="4" min="1" class="quantity-field form-control" style="float:left;">
+                                    </div>
+                                    <div class="mausac" style="float:left; margin-left: 30px;">
+                                        <p class="text" style="float:left; margin-bottom: 0; margin-top: 2px;">Màu sắc:</p>
+                                        <a href="" title=""><div class="blue color" style="float:left"></div></a>
+                                        <a href="" title=""><div class="red color" style="float:left"></div></a>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="size" style="margin-top: 7px;">
+                                    <p class="text" style="float:left; margin-top: 3px;">Size:</p>
+                                    <a href="" title=""><p style="float:left">S</p></a>
+                                    <a href="" title=""><p style="float:left">M</p></a>
+                                    <a href="" title=""><p style="float:left">L</p></a>
+                                    <a href="" title=""><p style="float:left">XL</p></a>
+                                    <a href="" title=""><p style="float:left">XXL</p></a>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="three" style="margin-top: 0px;">
+                                   <p class="text" style="float:left; margin-bottom: 0px; margin-top: 1px;">Phương thức vận chuyển:</p>
+                                    <select class="form-control" style="float:left">
+                                        <option>Giao Hàng Nhanh: 25.000đ</option>
+                                        <option>Giao Hàng Tiết Kiệm: 20.000đ</option>
+                                        <option>Grab Express: 25.000đ</option>
+                                        <option>Standard Express: 30.000đ</option>
+                                    </select> 
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="remove" style="margin-top: 20px;">    
+                                <a href="" title=""><img src="img/timgiohang.png" style="float: left; margin-top: 3px;" class="img-responsive" alt="Image"></a>             
+                                <a href="" title="" style="float: left; margin-left: 10px;"><p>Yêu thích</p></a>
+                                <a href="" title="" style="float: left; margin-left: 30px;"><p>Xóa</p></a>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <h2>Thông tin khách hàng</h2>
+                    <div class="form-group">
+                        <label style="float:left;" for="exampleInputPassword1">Họ và tên:</label>
+                        <input type="Địa chỉ" class="form-control lolo" style="float: left; width: 76%;" id="exampleInputAddress1" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label style="float:left;" for="exampleInputPassword1">Email:</label>
+                        <input type="Địa chỉ" class="form-control lolo " style="float: left;width: 83%;" id="exampleInputAddress1" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label style="float:left;" for="exampleInputPassword1">Điện thoại:</label>
+                        <input type="Địa chỉ" class="form-control lolo" style="float: left;width: 74%;" id="exampleInputAddress1" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label style="float:left;" for="exampleInputPassword1">Tỉnh/Tp:</label>
+                        <select class="form-control lolo" style="float:left; width: 79%;">
+                            <option value="An Giang">An Giang
+                            <option value="Bà Rịa - Vũng Tàu">Bà Rịa - Vũng Tàu
+                            <option value="Bắc Giang">Bắc Giang
+                            <option value="Bắc Kạn">Bắc Kạn
+                            <option value="Bạc Liêu">Bạc Liêu
+                            <option value="Bắc Ninh">Bắc Ninh
+                            <option value="Bến Tre">Bến Tre
+                            <option value="Bình Định">Bình Định
+                            <option value="Bình Dương">Bình Dương
+                            <option value="Bình Phước">Bình Phước
+                            <option value="Bình Thuận">Bình Thuận
+                            <option value="Cà Mau">Cà Mau
+                            <option value="Cao Bằng">Cao Bằng
+                            <option value="Đắk Lắk">Đắk Lắk
+                            <option value="Đắk Nông">Đắk Nông
+                            <option value="Điện Biên">Điện Biên
+                            <option value="Đồng Nai">Đồng Nai
+                            <option value="Đồng Tháp">Đồng Tháp
+                            <option value="Gia Lai">Gia Lai
+                            <option value="Hà Giang">Hà Giang
+                            <option value="Hà Nam">Hà Nam
+                            <option value="Hà Tĩnh">Hà Tĩnh
+                            <option value="Hải Dương">Hải Dương
+                            <option value="Hậu Giang">Hậu Giang
+                            <option value="Hòa Bình">Hòa Bình
+                            <option value="Hưng Yên">Hưng Yên
+                            <option value="Khánh Hòa">Khánh Hòa
+                            <option value="Kiên Giang">Kiên Giang
+                            <option value="Kon Tum">Kon Tum
+                            <option value="Lai Châu">Lai Châu
+                            <option value="Lâm Đồng">Lâm Đồng
+                            <option value="Lạng Sơn">Lạng Sơn
+                            <option value="Lào Cai">Lào Cai
+                            <option value="Long An">Long An
+                            <option value="Nam Định">Nam Định
+                            <option value="Nghệ An">Nghệ An
+                            <option value="Ninh Bình">Ninh Bình
+                            <option value="Ninh Thuận">Ninh Thuận
+                            <option value="Phú Thọ">Phú Thọ
+                            <option value="Quảng Bình">Quảng Bình
+                            <option value="Quảng Ngãi">Quảng Ngãi
+                            <option value="Quảng Ninh">Quảng Ninh
+                            <option value="Quảng Trị">Quảng Trị
+                            <option value="Sóc Trăng">Sóc Trăng
+                            <option value="Sơn La">Sơn La
+                            <option value="Tây Ninh">Tây Ninh
+                            <option value="Thái Bình">Thái Bình
+                            <option value="Thái Nguyên">Thái Nguyên
+                            <option value="Thanh Hóa">Thanh Hóa
+                            <option value="Thừa Thiên Huế">Thừa Thiên Huế
+                            <option value="Tiền Giang">Tiền Giang
+                            <option value="Trà Vinh">Trà Vinh
+                            <option value="Tuyên Quang">Tuyên Quang
+                            <option value="Vĩnh Long">Vĩnh Long
+                            <option value="Vĩnh Phúc">Vĩnh Phúc
+                            <option value="Yên Bái">Yên Bái
+                            <option value="Phú Yên">Phú Yên
+                            <option value="Tp.Cần Thơ">Tp.Cần Thơ
+                            <option value="Tp.Đà Nẵng">Tp.Đà Nẵng
+                            <option value="Tp.Hải Phòng">Tp.Hải Phòng
+                            <option value="Tp.Hà Nội">Tp.Hà Nội
+                            <option value="TP  HCM">TP HCM
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label style="float:left;" for="exampleInputPassword1">Quận/Huyện:</label>
+                        <select class="form-control lolo" style="float:left; width: 69%;">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label style="float:left;" for="exampleInputPassword1">Phường xã</label>
+                        <select class="form-control lolo" style="float:left;width: 75%;">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                     <div class="form-group">
+                        <label style="float:left; margin-bottom: 8px;" for="exampleInputPassword1">Địa chỉ:</label>
+                        <textarea class="form-control" style="background-color: transparent;"></textarea>
+                    </div>
+                    <h2 style="margin-top: 30px;">Tổng tiền giỏ hàng</h2>
+                    <div class="money" style="margin-top: 20px;">
+                        <p style="float:left">Tổng sản phẩm:</p>
+                        <p style="float:right">2</p>
+                    </div>
+                    <div class="clearfix"></div>
+                     <div class="money">
+                        <p style="float:left">Tổng tiền sản phẩm:</p>
+                        <p style="float:right">2.920.000</p>
+                    </div>
+                    <div class="clearfix"></div>
+                     <div class="money">
+                        <p style="float:left">Tổng phí vận chuyển:</p>
+                        <p style="float:right">38.000</p>
+                    </div>
+                     <div class="clearfix"></div>
+                    <hr>
+                     <div class="money v2">
+                        <p style="float:left; color: #590d08; ">Thành tiền:</p>
+                        <p style="float:right">2.958.000</p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <button class="btn">Thanh toán</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+	<section id="footer">
+		<div class="container" style="width: 55%;">
+			<div class="noidung">
+				<img src="img/logo2.png" class="img-responsive" alt="Image">
+			<p style="margin-top: 15px;">Nghê đích thực là gã linh vật chầu rìa độc đáo nhất trong nghệ thuật cổ truyền của người Việt.
+			<br>	Gã linh vật bên lề - nghê đã góp phần làm nên một diện mạo tinh thần sống động, lạc quan, bình dân <br> và thân thuộc cho nghệ thuật người Việt thời Trung đại. Nghê đã gắn bó ân tình với người Việt
+			<br>hàng nghìn năm nay. Nhỏ nhắn và khiêm nhường, chất phác và thuần hậu.</p>
+			<img src="img/hoatiet2.png" style="width: 10%; margin-top: 0;" class="img-responsive" alt="Image">
+			</div>
+			
+			<div class="row" style="margin-top: 30px; margin-bottom: 20px;">
+				<div class="col-md-4">
+					<h5>Hợp tác và liên kết:</h5>
+					<p>La Sonmai <br>Bảo tàng Mỹ thuật Việt Nam <br>Bảo tàng tỉnh Nam Định</p>
+				</div>
+				<div class="col-md-4">
+					<h5>Liên hệ:</h5>
+					<p>Điện thoại: (+84) 388 517 838<br>Email: nghevietnam@contact.com<br>Địa chỉ: 264 Cầu Giấy, Hà Nội </p>
+				</div>
+				<div class="col-md-4">
+					<h5>Liên hệ với chúng tôi:</h5>
+						<ul class="nav navbar-nav social">
+							<li class="fb"><img src="img/fbw.png" alt="" class="img-responsive">
+								<div class="overlay">
+									<a href="" title=""><img src="img/facebook.png" class="img-responsive" alt="Image"></a>
+								</div></li>
+							<li class="fb"><img src="img/youtube.png" alt="" class="img-responsive">
+							<div class="overlay">
+									<a href="" title=""><img src="img/youtuye.png" class="img-responsive" alt="Image"></a>
+								</div></li>
+							<li class="fb"><img src="img/pinterest.png" alt="" class="img-responsive">
+							<div class="overlay">
+									<a href="" title=""><img src="img/pinye.png" class="img-responsive" alt="Image"></a>
+								</div></li>
+							<li class="fb"><img src="img/instagram.png" alt="" class="img-responsive">
+							<div class="overlay">
+									<a href="" title=""><img src="img/instaye.png" class="img-responsive" alt="Image"></a>
+								</div></li>
+						</ul>
+				</div>
+			</div>
+		</div>
+		<div class="copy" style="background-color: #4f0c08">
+			<p>&copy;Copyright 2006 - 2019  All Rights Reserved. Nghe Viet Nam<p>
+		</div>
+	</section>
+	
+<!-- Liên kết js tổng -->
+		<script src="js/jquery.min.js"></script>
+		<!-- Liên kết js của bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
